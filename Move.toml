@@ -1,0 +1,11 @@
+[package]
+name = "DosPfp"
+edition = "2024.beta"
+license = "Cascade DOL 1.0"
+authors = ["Cascade Foundation (dos@cascade.foundation)"]
+
+[dependencies]
+DosAttribute = { git = "https://github.com/CascadeFoundation/dos_attribute.git", rev = "main" }
+
+[addresses]
+dos_pfp = "0x0"
